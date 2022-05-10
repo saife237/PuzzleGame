@@ -14,17 +14,22 @@ body{
   align-items: center;
 }
 .container{
-  height: 700px;
-  width: 700px;
-  background-color: rgb(190, 213, 233);
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 1em;
+  height: 550px;
+width: 363px;
+background-color: rgb(190, 213, 233);
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(4, 1fr);
+gap: 1em;
+position: relative;
+top: 45px;
+right: -62px;
 }
 h2{
   text-align: center;
   margin-bottom: 1em;
+  position: relative;
+top: -555px;
 }
 .data{
   background-color: #fff;
